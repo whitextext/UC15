@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0; 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+
+.container {
+    background-color: white;
+    width: 90%; 
+    max-width: 800px; 
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+h1 {
+    font-size: 2em; 
+    color: #333; 
+    border-bottom: 2px solid #eee; 
+    padding-bottom: 10px; 
+}
+
+/* Os parágrafos de texto */
+p {
+    font-size: 1em;
+    line-height: 1.6; 
+    color: #444; 
+    text-align: justify;
+    margin-bottom: 20px; 
+}
+
+
+.barra-titulo {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.barra-titulo h2 {
+    color: white; 
+    font-size: 1.5em; 
+    margin: 0; 
+}
+
+
+.placeholder-imagem {
+    border: 2px solid #555;
+    background-color: #f9f9f9; 
+    height: 150px; 
+    margin-bottom: 20px;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #888; 
+    font-style: italic; 
+}

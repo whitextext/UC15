@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo {
+    width: 90%;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    font-size: 0.8em;
+    color: #444;
+    font-weight: normal;
+}
+
+.barra-titulo {
+    background-color: #b0b0b0;
+    background-image: repeating-linear-gradient(
+        to bottom,
+        #b0b0b0,
+        #b0b0b0 2px,
+        #a9a9a9 2px,
+        #a9a9a9 4px
+    );
+    color: white;
+    padding: 8px 15px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.barra-titulo h2 {
+    font-size: 1.2em;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #555;
+}
+
+.receita h3,
+.receita h4,
+.receita li {
+    position: relative;
+}
+
+.receita h3::before,
+.receita h4::before,
+.receita li::before {
+    content: '●';
+    color: #888;
+    font-size: 0.9em;
+    position: absolute;
+    top: 2px;
+}
+
+.receita h3 {
+    font-size: 1.1em;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 1.5em;
+}
+.receita h3::before {
+    left: 0;
+}
+
+.receita h4 {
+    font-size: 1em;
+    color: #333;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 1.5em;
+    margin-left: 1.5em; 
+}
+.receita h4::before {
+    left: 1.5em; 
+}
+
+.receita ul {
+    list-style: none; 
+    padding-left: 0;
+    margin: 10px 0 20px 0;
+    margin-left: 3em; 
+}
+
+.receita li {
+    font-size: 1em;
+    color: #444;
+    margin-bottom: 6px;
+    line-height: 1.4;
+    padding-left: 1.5em;
+}
+.receita li::before {
+    left: 0;
+}
+
+.receita h3 + ul {
+    margin-left: 1.5em;
+}
+.receita h3 + ul li::before {
+    left: 0;
+}
